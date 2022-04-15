@@ -1,0 +1,15 @@
+.reviews {
+    padding-bottom: 20px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1025px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    };
+    &__img {
+        display: block;
+        height: 410px;
+        width: 470px;
+    };
+};

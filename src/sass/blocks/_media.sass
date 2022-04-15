@@ -1,0 +1,194 @@
+@media (max-width: 1200px)
+	.container 
+		max-width: 900px
+	.title
+		&::after
+			width: 850px
+	.promo
+		&__header 
+			margin-top: 170px
+			font-size: 43px
+		&__list
+			font-size: 30px
+	.reviews
+		&__img
+			width: 400px
+			height: 350px
+	.footer
+		&__wrapper
+			font-size: 18px 
+		&__info
+			max-width: 315px
+
+
+@media (max-width: 991px)
+	.container
+		max-width: 700px
+	.title
+		&::after
+			width: 671px
+	.promo
+		&__divider
+			width: 700px
+		&__navigation
+			a
+				font-size: 20px
+		&__header
+			font-size: 38px
+	.about
+		&__foto
+			height: 400px
+		&__descr
+			font-size: 17px
+			width: 335px
+		&__certificate
+			height: 495px
+	.equipment
+		&__descr
+			font-size: 17px
+			max-width: 297px
+		&__image
+			height: 270px
+	.carousel
+		&__inner
+			width: 500px
+		&__img
+			height: 500px
+	.reviews
+		&__wrapper
+			justify-content: center
+	.footer
+		&__info
+			max-width: 214px
+		&__descr
+			max-width: 209px
+@media (max-width: 767px)
+	.container
+		width: 500px
+	.title
+		&::after
+			width: 350px
+	.promo
+		&__header
+			font-size: 33px
+		&__list
+			font-size: 26px
+			line-height: 30px
+		&__navigation
+			position: fixed
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			top: 0
+			left: -100%
+			width: 50%
+			height: 100vh
+			padding: 20px 15px
+			background-color: rgba(0,0,0,.8)
+			transition: 0.6s all
+			z-index: 2
+			&_active
+				left: 0
+		&__link
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&__divider
+			display: none
+	.hamburger
+		display: block
+		position: absolute
+		right: 20px
+		top: 3%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 4px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 4px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(1px) rotate(45deg)
+
+	.about
+		&__certificate
+			height: 390px
+		&__wrapper
+			flex-direction: column
+		&__foto
+			margin-top: 20px
+		&__descr
+			span
+				z-index: -1
+	.equipment
+		&__wrapper
+			flex-direction: column
+		&__image
+			margin-top: 20px
+	.carousel
+		&__inner
+			z-index: -1
+	.footer
+		&__wrapper
+			flex-direction: column
+		&__descr
+			order: -1
+
+@media (max-width: 575px)
+	.container	
+		width: 355px
+	.title
+		font-size: 34px
+		&::before
+			top: 50%
+			transform: translate(-50%, -50%)
+		&::after
+			top: 50%
+			transform: translate(-50%, -50%)
+	.about
+		&__certificate
+			height: 292px
+	.carousel
+		&__inner
+			width: 350px
+		&__img
+			height: 350px
+	.reviews
+		&__img
+			width: 370px
+			height: 316px
+	.price
+		&__descr
+			font-size: 20px
+
+			
+@media (max-width: 376px)
+	.container
+		width: 315px
+	.promo
+		padding-bottom: 220px
+	.about
+		&__certificate
+			height: 273px
+	.equipment
+		&__image
+			height: 240px
+	.carousel
+		&__inner
+			width: 315px
+		&__img
+			height: 315px
+	.reviews
+		&__img
+			width: 327px
+			height: 270px

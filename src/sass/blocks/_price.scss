@@ -1,0 +1,12 @@
+.price {
+    padding-bottom: 20px;
+    &__descr {
+        color: #000;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        span {
+            text-decoration: underline;
+        }
+    };
+};
